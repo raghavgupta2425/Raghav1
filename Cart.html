@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/cart.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Product List</h1>
+      <div class="icon-cart">
+        <img src="/Cake For Luiza.jpg" alt="">
+        <div class="totalQuantity">0</div>
+      </div>
+    </header>
+
+    <div class="listProduct">
+      <div class="item">
+        <img src="/cake for luca50.jpg">
+        <h2>Product Name</h2>
+        <div class="price">$50</div>
+        <button onclick="addCart(1)">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="cart">
+    <h2>Cart</h2>
+    <div class="listCart"></div>
+    <div class="buttons">
+      <div class="close" onclick="closeCart()">Close</div>
+      <div class="checkout">
+        <a href="/Checkout.html">Checkout</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/cart.js"></script>
+</body>
+
+</html>
